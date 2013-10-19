@@ -5,9 +5,9 @@ body{
 	padding: 0;
 	margin: 0;
 	border: 0;
+	color: #555555
 }
-.main{
-}
+.main{}
 .banner{
 	height: 400px;
 	margin-bottom: 50px;
@@ -22,20 +22,18 @@ body{
 	/*background: rgba(0, 0, 0, 0.18);*/
 	border-radius: 5px;
 	max-width: 80%;
-	height: 200px;
+	height: 200px
 }
 .banner-button{
 	text-align: center
 }
-.news-feed{
-
-}
+.feed{}
+.feed-item{}
 .feed-heading{
 	text-align: center;
 	font-size: 20px
 }
-.news-list{
-}
+.news-list{}
 .news-item{
 	background-color: silver;
 	padding: 10px;
@@ -53,9 +51,7 @@ body{
 .item-hover{
 	display: none
 }
-.votes{
-
-}
+.votes{}
 .inl{
 	display: inline
 }
