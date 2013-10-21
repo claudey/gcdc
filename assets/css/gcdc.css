@@ -1,5 +1,5 @@
 html{
-	overflow-y:scroll;
+	overflow-y:scroll
 }
 body{
 	padding: 0;
@@ -52,7 +52,28 @@ body{
 .item-hover{
 	display: none
 }
+.item{
+	display: block
+}
 .votes{}
 .inl{
 	display: inline
 }
+.login-text{
+	text-align: center;
+	font-size: 20px
+}
+/*input{
+	border: 1px solid green;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+input:focus,textarea:focus,select:focus{
+ border:1px solid #fafafa;
+ -webkit-box-shadow:0 0 6px #007eff;
+ -moz-box-shadow:0 0 5px #007eff;
+ box-shadow:0 0 18px #007eff;
+ padding: 5px;
+
+}*/
