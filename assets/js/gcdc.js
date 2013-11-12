@@ -1,12 +1,30 @@
-// click a feedable
 $('.feedable').click(function(){
-// 	$(this).css('background-color', 'red');
 	$('.office-list').children().each(function(){
-		$('*').removeClass('active');
+		$(this).removeClass('active');
 	});
 	$(this).addClass('active');
 });
-
-// remove the active on one children of the office-list
-// set the class of the clicked object to active
-// enable the related feedable
+$('.mp').click(function(){
+	$('.feed').children().each(function(){
+		$(this).css('display', 'none');
+	});
+	$('.feed-mp').css('display','inline');
+});
+$('.dce').click(function(){
+	$('.feed').children().each(function(){
+		$(this).css('display', 'none');
+	});
+	$('.feed-dce').css('display','inline');
+});
+$('.min').click(function(){
+	$('.feed').children().each(function(){
+		$(this).css('display', 'none');
+	});
+	$('.feed-min').css('display','inline');
+});
+$('.prez').click(function(){
+	$('.feed').children().each(function(){
+		$(this).css('display', 'none');
+	});
+	$('.feed-prez').css('display','inline');
+});
