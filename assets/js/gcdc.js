@@ -1,3 +1,4 @@
+$('.active').removeClass('active');
 $('.feedable').click(function(){
 	$('.office-list').children().each(function(){
 		$(this).removeClass('active');

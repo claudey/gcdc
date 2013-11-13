@@ -8,6 +8,10 @@ body{
 	color: #555555;
 	font-family: 'Open Sans', sans-serif;
 }
+.navbar{
+	border-radius: 0;
+	border: 0
+}
 .main{}
 .banner{
 	height: 400px;
