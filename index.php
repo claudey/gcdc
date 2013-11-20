@@ -1,79 +1,97 @@
-<?php 
-   
-?>
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GCDC</title>
+        <title>Leaders Watch</title>
+	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/bs.css">
 	    <link rel="stylesheet" href="assets/css/gcdc.css">
+	    <link rel="stylesheet" href="assets/css/index.css">
     </head>
     <body>
         <div class="main">
-	        <div class="navbar">
-	            <div class="navbar navbar-default">
-	                <div class="container">
-	                    <div class="row">
-	                        <div class="col-md-12">
-	                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-	                                <span class="icon-bar"></span>
-	                                <span class="icon-bar"></span>
-	                                <span class="icon-bar"></span>
-	                            </button>
-	                            <div class="navbar-header">
-	                                <a class="navbar-brand" href="#"><img alt="GCDC" src="" /></a>
-	                            </div>
-	                            <div class="collapse navbar-responsive-collapse navbar-collapse">
-	                                <ul class="nav nav-pills pull-right" id="nav">
-	                                    <li class="dropdown">
-	                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Officials<span class="caret"></span></a>
-	                                        <ul class="dropdown-menu">
-	                                            <li><a href="something.html">Something</a></li>
-	                                            <li><a href="something.html">Something</a></li>
-	                                            <li><a href="something.html">Something</a></li>
-	                                        </ul>
-	                                    </li>
-	                                    <li>
-	                                        <a href="#">Create Issue</a>
-	                                    </li>
-	                                    <li>
-	                                        <a href="login.php">Signup/Login</a>
-	                                    </li>
-	                                </ul>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>          
-	            </div>
-	        </div>
-        <!-- navbar ends -->
+        	<div class="banner">
+        		<div class="tagline col-lg-7 pull-right">Hold politically elected officials accountable</div>
+        	</div>
+	        <nav class="container navbar navbar-default navbar-fixed-top" role="navigation">
+	        	<!-- Brand and toggle get grouped for better mobile display -->
+	        	<div class="navbar-header">
+	        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        			<span class="sr-only">Toggle navigation</span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        		</button>
+	        		<a class="navbar-brand" href="#">Leaders Watch</a>
+	        	</div>
 
-        <div class="container">
-        	<div class="banner">banner</div>
+	        	<!-- Collect the nav links, forms, and other content for toggling -->
+	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        		
+	        		<ul class="nav navbar-nav navbar-right">
+
+	        			<li class="dropdown">
+	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Officials <b class="caret"></b></a>
+	        				<ul class="dropdown-menu">
+	        					<li><a href="/follow#mp">MPs</a></li>
+	        					<li><a href="/follow#dce">DCEs</a></li>
+	        					<li><a href="/follow#min">Ministers</a></li>
+	        					<li class="divider"></li>
+	        					<li><a href="/follow#prez">The President</a></li>
+	        				</ul>
+	        			</li>
+						<li><a href="#">Create Issue</a></li>
+						<li><a href="#">Sign up / Login</a></li>
+
+	        		</ul>
+	        	</div><!-- /.navbar-collapse -->
+	        </nav>
+
+        <div class="container">       	
 
 			<!-- new feed -->
 			<div class="row feed">
 			    <div class="col-lg-4 feed-item">
 			    	<h5 class="center">Most Recent Issues</h5>
-			    	<hr>
 			    	<div>
 			    		<div class="feed-item-list">
 			    			<div class="feed-item-title">
-			    				Title of issue
+			    				Title of issue one
 			    				</br>
-			    				<span class="author right">Authored By: Juvenile</span>
+			    				<span class="author right">Authored By: Juveniel</span>
 			    			</div>
 			    			<div class="social-media-buttons">			    				
 			    				<div class="row">
 			    					<div class="col-lg-6">
-				    					<i class="glyphicon glyphicon-thumbs-up"></i> 345 &nbsp;
-				    					<i class="glyphicon glyphicon-thumbs-down"></i> 54
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -82,16 +100,92 @@
 				</div>
 			    <div class="col-lg-4 feed-item">
 			    	<h5 class="center">Most Read Issues</h5>
-			    	<hr>
-			    	<div class="row">
-
+			    	<div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue one
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
 			    	</div>	
 				</div>
 			    <div class="col-lg-4 feed-item">
 			    	<h5 class="center">Most Voted Issues</h5>
-			    	<hr>
-			    	<div class="row">
-
+			    	<div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue one
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
 			    	</div>	
 				</div>
 			</div>
@@ -101,6 +195,7 @@
     	<div class="footer">footer</div>
 
         <script src="assets/js/jquery-2.0.3.js"></script>
+        <script src="assets/js/bs.min.js"></script>
         <script src="assets/js/gcdc.js"></script>
     </body>
 </html>

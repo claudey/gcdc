@@ -4,16 +4,22 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
         <title>GCDC</title>
 <<<<<<< HEAD
 =======
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+        <title>Leaders Watch</title>
+	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
         <link rel="stylesheet" href="assets/css/bs.css">
 	    <link rel="stylesheet" href="assets/css/gcdc.css">
 	    <link rel="stylesheet" href="assets/css/user.css">
     </head>
     <body>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <div class="main">
 	        <div class="navbar">
@@ -60,6 +66,8 @@
 	        </div>
         <!-- navbar ends -->
 =======
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
         <div class="container main">
 	        <nav class="navbar navbar-default" role="navigation">
 	        	<!-- Brand and toggle get grouped for better mobile display -->
@@ -70,7 +78,7 @@
 	        			<span class="icon-bar"></span>
 	        			<span class="icon-bar"></span>
 	        		</button>
-	        		<a class="navbar-brand" href="#">Leader Watch</a>
+	        		<a class="navbar-brand" href="#">Leaders Watch</a>
 	        	</div>
 
 	        	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -94,7 +102,10 @@
 	        		</ul>
 	        	</div><!-- /.navbar-collapse -->
 	        </nav>
+<<<<<<< HEAD
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
 
         <div class="container">
         	<div class="row">
@@ -148,9 +159,13 @@
 
         <script src="assets/js/jquery-2.0.3.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <script src="assets/js/bs.min.js"></script>
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+        <script src="assets/js/bs.min.js"></script>
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
         <script src="assets/js/gcdc.js"></script>
     </body>
 </html>

@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>GCDC</title>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <link rel="stylesheet" href="assets/css/bs.css">
 	    <link rel="stylesheet" href="assets/css/gcdc.css">
     </head>
@@ -49,6 +50,8 @@
 	        </div>
         <!-- navbar ends -->
 =======
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/bs.css">
 	    <link rel="stylesheet" href="assets/css/gcdc.css">
@@ -89,7 +92,10 @@
 	        		</ul>
 	        	</div><!-- /.navbar-collapse -->
 	        </nav>
+<<<<<<< HEAD
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
 
         <div class="container">
         	<div class="row">
@@ -97,6 +103,9 @@
         		<div class="col-md-4">
         			<div class="sign-in">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
         				<form class="form-signin" action="process.php" method="post">
 	                        <h2 class="form-signin-heading">Please sign in</h2>
 	                        <input type="text" name="email" class="form-control" placeholder="Email address" autofocus required><br>
@@ -112,6 +121,7 @@
 	                    <form method="get" action="oauth/login_with_google.php">
 	                        <button value="submit">Sign in with Google</button>
 	                    	<p><a href="#"></a></p>
+<<<<<<< HEAD
 =======
         				<form class="form-signin">
 	                        <h2 class="form-signin-heading">Please sign in</h2>
@@ -123,6 +133,8 @@
         					<p><a href="#">Sign in with Google</a></p>
 	                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
 	                    </form>
         			</div>
         		</div>
@@ -135,9 +147,13 @@
 
         <script src="assets/js/jquery-2.0.3.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <script src="assets/js/bs.min.js"></script>
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+        <script src="assets/js/bs.min.js"></script>
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
         <script src="assets/js/gcdc.js"></script>
     </body>
 </html>

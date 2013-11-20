@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
         <title>GCDC</title>
 <<<<<<< HEAD
         <link rel="stylesheet" href="assets/css/bs.css">
@@ -62,6 +63,9 @@
 				<div class="col-md-9">main pane</div>
         	</div>
 =======
+=======
+        <title>Leaders Watch</title>
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/bs.css">
 	    <link rel="stylesheet" href="assets/css/gcdc.css">
@@ -160,17 +164,25 @@
         			</div>
 				</div>
         	</div> <!-- row ends here -->
+<<<<<<< HEAD
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
         </div>  <!-- container ends here -->
 
     	<div class="footer">footer</div>
 
         <script src="assets/js/jquery-2.0.3.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <script src="assets/js/gcdc.js"></script>
 =======
         <script src="assets/js/bs.min.js"></script>
 		<script src="assets/js/gcdc.js"></script>
 >>>>>>> e0b4e5c18304615d196916f67ab004604575d34b
+=======
+        <script src="assets/js/bs.min.js"></script>
+		<script src="assets/js/gcdc.js"></script>
+>>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
     </body>
 </html>
