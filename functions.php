@@ -13,11 +13,11 @@
         	// exit();
         	//include_once("db_connect.php");
         	//$dbh = new PDO("mysql:host=$hostname;dbname=demcratic_dialogue", $username, $password);    
-            try {
-	                if($email == "" || $password == ""){
+            
+	               if($email == "" || $password == ""){
 					echo "Please enter your email and password";
 			        exit();
-				} else {
+				     } else {
 				       $sql = mysql_query("SELECT email, password FROM users WHERE email='$email' AND password='$password' LIMIT 1");
 				       // $sql = mysql_query("SELECT * FROM profile_data WHERE user_id='$user' LIMIT 1");
 				       $count = mysql_num_rows($sql);
@@ -63,8 +63,37 @@
 					}
 		         }
 			    
-			   }
+			   
 		       	
+      }
+
+
+
+      function signup($email,$password,$firstName,$lastName)
+      {
+      	# code...
+
+     
+          $result = mysql_query("SELECT * FROM users WHERE email='$email'") OR DIE (mysql_error());
+          if (mysql_num_rows($result)==0) {
+
+               $result2 = mysql_query("INSERT INTO users (email,password,firstName,lastName) VALUES ('$email','$password','$firstName','$firstName') ") OR die (mysql_error());
+               if (!$result2) {
+                    # code...
+                    die('Could not insert into database: '.mysql_error());
+               }else{
+                     
+                     $_SESSION['id'] = mysql_insert_id();
+                     header('Location:user.php');
+               }
+          }else{
+               echo "User already exist";
+               header('Location:login.php');
+               
+
+          }
+
+
       }
 
 ?>

@@ -11,11 +11,17 @@
 
            }elseif (isset($_POST['signup'])) {
              # code...
-
-              $username = isset($_POST['username']);
               //$username = isset($_POST['username']);
-              $email = ($_POST['email']);
-              $password = ($_POST['password']);
-              
+              $email = $_POST['email'];
+              $password = $_POST['password'];
+              $firstName = $_POST['firstName'];
+              $lastName = $_POST['lastName'];
+
+              echo $email;
+              echo $password;
+              echo $firstName;
+              echo $lastName;
+              exit();
+              signup($email,$password,$firstName,$lastName);
            }
 ?>

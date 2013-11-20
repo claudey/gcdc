@@ -48,8 +48,21 @@
 
         <div class="container">
         	<div class="row">
-        		<div class="col-md-6"><div class="login-text">image about the projects/quotes about it</div></div>
         		<div class="col-md-4">
+        			<div class="login-text">image about the projects/quotes about it</div>
+        				<form class="form-signin" action="process.php" method="post">
+	                        <h2 class="form-signin-heading">Please sign up</h2>
+	                        <input type="text" name="email" class="form-control" placeholder="Email address" autofocus required><br>
+	                        <input type="password" name="password" class="form-control" placeholder="Password" autofocus required><br>
+	                        <input type="text" name="firstName" class="form-control" placeholder="Your First Name" required>
+	                        <input type="text" name="lastName" class="form-control" placeholder="Your Last Name">
+	                        <br>
+
+	                        <button class="btn btn-lg btn-primary btn-block" name="signup" type="submit">Sign Up</button>
+	                    </form>
+	                    <br>
+        			</div>
+        		<div class="col-md-4 col-md-offset-2">
         			<div class="sign-in">
 
         				<form class="form-signin" action="process.php" method="post">
