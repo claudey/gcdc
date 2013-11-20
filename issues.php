@@ -49,10 +49,10 @@
 
 	        <div class="content container">       	
 	        	<div class="row">
-	        		<div class="col-lg-9">
+	        		<div class="col-lg-8 col-lg-offset-1">
 	        			<div class="content-header border-bottom">
 			        		<div class="content-title">
-			        			<h3>The title of the issse</h3>
+			        			<h3>The title of the issue</h3>
 			        		</div>
 			        		<div class="date-posted author">Posted by Albert Fiati on 12-December-2013</div>
 			        	</div>
@@ -97,6 +97,20 @@
 			        		</div>
 			        		<div class="older-comments">
 			        			<div class="media">
+									<a class="pull-left" href="#">
+									    <img class="media-object" src="http://placehold.it/75x75" alt="user">
+									</a>
+									<div class="media-body">
+									    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									    consequat.
+
+									    <div class="author right">By Username on 12-December-2013</div>
+									</div>
+								</div>
+
+								<div class="media">
 									<a class="pull-left" href="#">
 									    <img class="media-object" src="http://placehold.it/75x75" alt="user">
 									</a>
