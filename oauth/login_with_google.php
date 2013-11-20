@@ -21,10 +21,10 @@
 
 	$client->debug = false;
 	$client->debug_http = true;
-	$client->redirect_uri = '';
+	$client->redirect_uri = 'http://gcdc2013-leaderswatch.appspot.com/oauth2callback';
 
-	$client->client_id = ''; $application_line = __LINE__;
-	$client->client_secret = '';
+	$client->client_id = '36401827783-pjn05h9enu1cavd0rmnnt5bbp9s2b110.apps.googleusercontent.com'; $application_line = __LINE__;
+	$client->client_secret = 'dFy8OALQ3cUWckJ6w-oQLIja';
 
 	if(strlen($client->client_id) == 0
 	|| strlen($client->client_secret) == 0)
