@@ -5,11 +5,11 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GCDC</title>
+        <title>Leaders Watch - Follow your leaders</title>
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/assets/css/bs.css">
-	    <link rel="stylesheet" href="/assets/css/gcdc.css">
-	    <link rel="stylesheet" href="/assets/css/user.css">
+        <link rel="stylesheet" href="assets/css/bs.css">
+	    <link rel="stylesheet" href="assets/css/gcdc.css">
+	    <link rel="stylesheet" href="assets/css/user.css">
     </head>
     <body>
         <div class="container main">
@@ -62,13 +62,670 @@
         			<p class="welcome">Welcome to GCDC. Click on any of the tabs to follow .</p>
         			<div class="fd feed-mp">
         				
-        				<span>Name of office <button>Follow</button></span>
+                        <!-- Ashanti Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Ashanti Region</div>
+
+                            <!-- Table -->
+            				<table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Brong Ahafo Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Brong Ahafo Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Central Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Central Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Eastern Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Eastern Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Greater Accra Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Greater Accra Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Northern Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Northern Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Upper East Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Upper East Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Upper West Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Upper West Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Volta Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Volta Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <!-- Western Region -->
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Western Region</div>
+
+                            <!-- Table -->
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Constituency</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Joel Funu </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Mathematics </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr><tr>
+                                        <td> Social learning </td>
+                                        <td> Akyem Abuakwa </td>
+                                        <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                    </tr>                       
+                                </tbody>
+                            </table>
+
+                        </div>
 
     				</div>
         			<div class="fd feed-dce">
 						<p>List of DCEs</p>
+                        
 
-        				<span>Name of office <button>Follow</button></span>
+                                    <!-- Ashanti Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Ashanti Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Brong Ahafo Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Brong Ahafo Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Central Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Central Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Eastern Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Eastern Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Greater Accra Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Greater Accra Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Northern Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Northern Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Upper East Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Upper East Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Upper West Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Upper West Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Volta Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Volta Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                    <!-- Western Region -->
+                                    <div class="panel panel-default">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Western Region</div>
+
+                                        <!-- Table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Constituency</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Joel Funu </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Mathematics </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr><tr>
+                                                    <td> Social learning </td>
+                                                    <td> Akyem Abuakwa </td>
+                                                    <td><a class="btn btn-primary btn-sm">Follow</a></td>
+                                                </tr>                       
+                                            </tbody>
+                                        </table>
+
+                                    </div>
 
         			</div>
         			<div class="fd feed-min">
@@ -84,8 +741,8 @@
 
     	<div class="footer">footer</div>
 
-        <script src="/assets/js/jquery-2.0.3.js"></script>
-        <script src="/assets/js/bs.min.js"></script>
-        <script src="/assets/js/gcdc.js"></script>
+        <script src="assets/js/jquery-2.0.3.js"></script>
+        <script src="assets/js/bs.min.js"></script>
+        <script src="assets/js/gcdc.js"></script>
     </body>
 </html>
