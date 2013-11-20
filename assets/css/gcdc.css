@@ -7,6 +7,9 @@ body{
 	border: 0;
 	color: #555555;
 }
+
+.content{margin-top: 70px;}
+
 .navbar{
 	border-radius: 0;
 	border: 0;
@@ -112,6 +115,9 @@ body{
 
 .author{font-size: 13px;
 		font-style: italic;}
+
+.border-bottom{border-bottom: 1px solid #ddd;}
+.border-top{border-bottom: 1px solid #ddd;}
 /*input{
 	border: 1px solid green;
 	padding: 5px;

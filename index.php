@@ -24,7 +24,7 @@
 	        			<span class="icon-bar"></span>
 	        			<span class="icon-bar"></span>
 	        		</button>
-	        		<a class="navbar-brand" href="#">Leaders Watch</a>
+	        		<a class="navbar-brand" href="#"><i class="glyphicon glyphicon-eye-open"></i> Leaders Watch</a>
 	        	</div>
 
 	        	<!-- Collect the nav links, forms, and other content for toggling -->
