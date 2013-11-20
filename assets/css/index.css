@@ -1,5 +1,5 @@
 .banner{
-	height: 400px;
+	height: 500px;
 	margin-bottom: 20px;
 	background: url(http://www.electionchannel.com/images/Ghana-flags.jpg);
 	background-position: center;
@@ -15,11 +15,14 @@
 }
 .tagline{
 	text-align: center;
-	padding-top: 170px;
-	padding-bottom: 25px;
-	font-size: 4em;
+	padding: 10px;
+	font-size: 3.3em;
 	color:#fff;
 	text-shadow:2px 2px 2px #000;
+	background: rgba(000,000,000,0.08);
+	position: absolute;
+	left:40%;
+	top:30%;
 }
 .feedable > a:hover{
 	cursor: pointer

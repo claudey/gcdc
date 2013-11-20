@@ -56,7 +56,7 @@ body{
 				z-index: 2;}
 
 .feed-item-title{color: #030217;
-				 font-size: 24px;
+				 font-size: 20px;
 				 padding:10px;}
 
 .social-media-buttons{background: rgba(000,000,000,0.75);
@@ -66,7 +66,7 @@ body{
 						visibility: none;
 						position: absolute;
 						width: 358px;
-						top:45px;
+						top:33px;
 						border-radius: 0px 0px 3px 3px;}
 
 .padding-right{padding-right:7px;	
