@@ -96,6 +96,26 @@
 			    				</div>
 			    			</div>
 			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue three
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
 			    	</div>	
 				</div>
 			    <div class="col-lg-4 feed-item">
@@ -141,6 +161,26 @@
 			    				</div>
 			    			</div>
 			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue three
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
 			    	</div>	
 				</div>
 			    <div class="col-lg-4 feed-item">
@@ -169,6 +209,26 @@
 			    		<div class="feed-item-list">
 			    			<div class="feed-item-title">
 			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue three
 			    				</br>
 			    				<span class="author right">Authored By: Juveniel</span>
 			    			</div>
