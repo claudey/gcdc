@@ -1,3 +1,29 @@
+<?php
+
+      session_start();
+
+      // echo $_SESSION['useremail'];
+      // exit();
+
+   // See if they are a logged in member by checking Session data
+	if (isset($_SESSION['useremail'])) {
+		// Put stored session variables into local php variable
+	    $user = $_SESSION['useremail'];
+	    $userpassword = $_SESSION['password'];
+
+	    // echo $user;
+	    // exit();
+
+
+
+	} else {
+		echo 'Please <a href="login.php">log in</a> to access your account';
+	    exit(); 
+	} 
+
+
+?>
+
 <!doctype html>
 <html>
     <head>

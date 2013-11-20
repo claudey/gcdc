@@ -41,7 +41,7 @@
 	        				</ul>
 	        			</li>
 						<li><a href="#">Create Issue</a></li>
-						<li><a href="#">Sign up / Login</a></li>
+						<li><a href="#">Sign up/Login</a></li>
 
 	        		</ul>
 	        	</div><!-- /.navbar-collapse -->
@@ -52,7 +52,7 @@
 				<div class="col-md-3">
 					<ul class="nav nav-pills nav-stacked office-list">
 						<li><button class="btn-lg btn-success">Create project</button></li>
-						<li class="active feedable mp"><a>MPs</a></li>
+						<li class="active feedable mp"><a>Issues</a></li>
 						<li class="feedable prez"><a>Profile</a></li>
 					</ul>
 				</div>
