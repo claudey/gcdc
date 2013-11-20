@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
     <head>
@@ -6,9 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>GCDC</title>
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="assets/css/bs.css">
-	    <link rel="stylesheet" href="assets/css/gcdc.css">
-	    <link rel="stylesheet" href="assets/css/user.css">
+        <link rel="stylesheet" href="/assets/css/bs.css">
+	    <link rel="stylesheet" href="/assets/css/gcdc.css">
+	    <link rel="stylesheet" href="/assets/css/user.css">
     </head>
     <body>
         <div class="container main">
@@ -46,7 +47,6 @@
 	        	</div><!-- /.navbar-collapse -->
 	        </nav>
 
-        <div class="container">
         	<div class="row">
 
         		<nav class="offices">
@@ -59,36 +59,24 @@
         		</nav>
 
         		<div class="feed col-md-8 col-md-offset-2">
-        			<p class="welcome">Welcome to GCDC. Click on any of the tabs to see your feed.</p>
+        			<p class="welcome">Welcome to GCDC. Click on any of the tabs to follow .</p>
         			<div class="fd feed-mp">
-        				This is the feed for members of parliament. It should show only when necessary
+        				
+        				<span>Name of office <button>Follow</button></span>
 
-        				<div class="row news-item" id="3">
-        					<div class="col-md-2">
-        						an image to make the text less boring.
-        					</div>
-    						<div class="col-md-10">
-	    						<p class="item-title">Water Issue</p>
-	    						<div class="row">
-	    							<div class="col-md-8">
-	    								<p class="created-by">Creator</p>
-	    								<p class="assigned-to">Assignee</p>
-	    							</div>
-	    							<div class="col-md-4 view-issue item-hover">
-	    								<button class="btn btn-success">View Issue</button>
-	    							</div>
-	    						</div>
-	    						<div class="votes item-hover">
-	    							<div class="inl num-up-votes">243</div>
-	    							<div class="inl num-down-votes">19</div>
-	    							<div class="inl num-comments">104</div>
-	    						</div>
-	    						<div class="item-share item-hover"></div>
-    						</div>
-    					</div>
     				</div>
-        			<div class="fd feed-dce">Feeds from DCEs are listed here. We like to keep it short</div>
-        			<div class="fd feed-min">Minister will post their updates to subscribed users here. All short and sweet.</div>
+        			<div class="fd feed-dce">
+						<p>List of DCEs</p>
+
+        				<span>Name of office <button>Follow</button></span>
+
+        			</div>
+        			<div class="fd feed-min">
+						<p>List of Ministers</p>
+
+        				<span>Name of office <button>Follow</button></span>
+						
+        			</div>
         			<div class="fd feed-prez">The President sends out his greetings from the land of the flagstaffers.</div>
         		</div>
         	</div>
@@ -96,8 +84,8 @@
 
     	<div class="footer">footer</div>
 
-        <script src="assets/js/jquery-2.0.3.js"></script>
-        <script src="assets/js/bs.min.js"></script>
-        <script src="assets/js/gcdc.js"></script>
+        <script src="/assets/js/jquery-2.0.3.js"></script>
+        <script src="/assets/js/bs.min.js"></script>
+        <script src="/assets/js/gcdc.js"></script>
     </body>
 </html>
