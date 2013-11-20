@@ -48,7 +48,7 @@
 	    
         <div class="banner">
         	<div class="tagline">
-        		Hold Your Elected Leaders Accountable
+        		Holding Politicaly Elected Leaders Accountable
         	</div>
     	</div>
 

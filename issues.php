@@ -49,10 +49,10 @@
 
 	        <div class="content container">       	
 	        	<div class="row">
-	        		<div class="col-lg-9">
+	        		<div class="col-lg-8 col-lg-offset-1">
 	        			<div class="content-header border-bottom">
 			        		<div class="content-title">
-			        			<h3>The title of the issse</h3>
+			        			<h3>The title of the issue</h3>
 			        		</div>
 			        		<div class="date-posted author">Posted by Albert Fiati on 12-December-2013</div>
 			        	</div>
