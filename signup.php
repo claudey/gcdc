@@ -60,6 +60,11 @@
                         <input type="text" name="email" class="form-control" placeholder="Email address" autofocus required><br>
                         <input type="password" name="password" class="form-control" placeholder="Password" required>
                         <input type="password" name="password" class="form-control" placeholder="Verify Password" required>
+                        <input type="text" name="fname" placeholder="First Name">
+                        <input type="text" name="lname" placeholder="Last Name">
+                        <input type="date" name="dob" placeholder="Date of Birth">
+                        <input type="text" name="office" placeholder="Your office eg. Minister">
+                        <input type="text" name="title" placeholder="Your office eg. Title of office, eg. Agric, Okaikoi South, etc">
                         <input type="file">
                         <input type="text" placegolder="">
                         <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Sign up</button>
