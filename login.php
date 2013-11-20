@@ -65,7 +65,7 @@
 
 	                    <br>
 
-	                    <form method="get" action="oauth/login_with_google.php">
+	                    <form method="get" action="oauth/login">
 	                        <button value="submit">Sign in with Google</button>
 	                    	<p><a href="#"></a></p>
 	                    </form>

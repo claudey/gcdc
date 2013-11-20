@@ -105,7 +105,7 @@
 
     	<div class="footer">footer</div>
 
-        <script src="assets/js/jquery-2.0.3.js"></script>
-        <script src="assets/js/gcdc.js"></script>
+        <script src="/assets/js/jquery-2.0.3.js"></script>
+        <script src="/assets/js/gcdc.js"></script>
     </body>
 </html>

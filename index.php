@@ -8,8 +8,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>GCDC</title>
-        <link rel="stylesheet" href="assets/css/bs.css">
-	    <link rel="stylesheet" href="assets/css/gcdc.css">
+        <link rel="stylesheet" href="/assets/css/bs.css">
+	    <link rel="stylesheet" href="/assets/css/gcdc.css">
     </head>
     <body>
         <div class="main">
@@ -40,7 +40,7 @@
 	                                        <a href="#">Create Issue</a>
 	                                    </li>
 	                                    <li>
-	                                        <a href="login.php">Signup/Login</a>
+	                                        <a href="/login">Signup/Login</a>
 	                                    </li>
 	                                </ul>
 	                            </div>
@@ -185,7 +185,7 @@
 
     	<div class="footer">footer</div>
 
-        <script src="assets/js/jquery-2.0.3.js"></script>
-        <script src="assets/js/gcdc.js"></script>
+        <script src="/assets/js/jquery-2.0.3.js"></script>
+        <script src="/assets/js/gcdc.js"></script>
     </body>
 </html>

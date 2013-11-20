@@ -1,0 +1,20 @@
+application: gcdc2013-leaderswatchapp
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /login
+  script: login.php
+
+- url: /oauth/login
+  script: oauth/login_with_google.php
+
+- url: /oauth2callback?state=1384910085-9bf03c&code=4/.*
+  script: follow.php
+
+- url: /assets/css/
+  static_dir: assets/css
