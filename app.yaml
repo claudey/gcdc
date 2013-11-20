@@ -10,6 +10,15 @@ handlers:
 - url: /login
   script: login.php
 
+- url: /signup
+  script: signup.php
+
+- url: /follow
+  script: follow.php
+
+- url: /process
+  script: formprocessor.php
+
 - url: /oauth/login
   script: oauth/login_with_google.php
 

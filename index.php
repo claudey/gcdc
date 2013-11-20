@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
         <title>GCDC</title>
         <link rel="stylesheet" href="/assets/css/bs.css">
 	    <link rel="stylesheet" href="/assets/css/gcdc.css">

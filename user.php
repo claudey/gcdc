@@ -96,13 +96,8 @@
 
     	<div class="footer">footer</div>
 
-<<<<<<< HEAD
         <script src="/assets/js/jquery-2.0.3.js"></script>
         <script src="/assets/js/gcdc.js"></script>
-=======
-        <script src="assets/js/jquery-2.0.3.js"></script>
         <script src="assets/js/bs.min.js"></script>
-        <script src="assets/js/gcdc.js"></script>
->>>>>>> 2ff3ddce3ae240a33e0bf5bb209e724c79db7ff3
     </body>
 </html>
