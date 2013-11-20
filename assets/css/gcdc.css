@@ -7,6 +7,9 @@ body{
 	border: 0;
 	color: #555555;
 }
+
+.content{margin-top: 70px;}
+
 .navbar{
 	border-radius: 0;
 	border: 0;
@@ -56,17 +59,17 @@ body{
 				z-index: 2;}
 
 .feed-item-title{color: #030217;
-				 font-size: 24px;
+				 font-size: 20px;
 				 padding:10px;}
 
 .social-media-buttons{background: rgba(000,000,000,0.75);
-						padding:7px;
+						padding:5px;
 						color: #fff;
 						border-top: 1px solid rgba(255,255,255,0.13);
 						visibility: none;
 						position: absolute;
 						width: 358px;
-						top:45px;
+						top:36px;
 						border-radius: 0px 0px 3px 3px;}
 
 .padding-right{padding-right:7px;	
@@ -112,6 +115,9 @@ body{
 
 .author{font-size: 13px;
 		font-style: italic;}
+
+.border-bottom{border-bottom: 1px solid #ddd;}
+.border-top{border-bottom: 1px solid #ddd;}
 /*input{
 	border: 1px solid green;
 	padding: 5px;
