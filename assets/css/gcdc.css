@@ -6,16 +6,18 @@ body{
 	margin: 0;
 	border: 0;
 	color: #555555;
-	font-family: 'Open Sans', sans-serif;
 }
+.navbar{
+	border-radius: 0;
+	border: 0;
+	color: white
+}
+.navbar-brand{
+	font-weight: 700
+}
+
 .main{}
-.banner{
-	height: 400px;
-	margin-bottom: 50px;
-	background: url(../img/banner.jpg);
-	background-position: center;
-	background-size: cover
-}
+
 .banner-text{
 	margin: 0 auto 20px auto;
 	font-size: 40px;
@@ -29,11 +31,51 @@ body{
 	text-align: center
 }
 .feed{}
+
 .feed-item{}
+
 .feed-heading{
 	text-align: center;
 	font-size: 20px
 }
+
+.feed-head{margin-bottom: 20px;
+		   color:#090484;}
+
+.feed-item-list{cursor: pointer;
+				margin-bottom: 7px;
+				-webkit-border-radius: 3px;
+				border-radius: 3px;
+				-webkit-transition: left .5s cubic-bezier(0.250,0.460,0.450,0.940),width .4s ease,padding .4s ease,box-shadow .4s ease,margin .4s ease,border .4s ease;
+				transition: left .5s cubic-bezier(0.250,0.460,0.450,0.940),width .4s ease,padding .4s ease,box-shadow .4s ease,margin .4s ease,border .4s ease;
+				background-color: #f5f5f5;
+				border: 1px solid #d8d8d8;
+				left: 0;
+				margin: 10px 0 20px 0;
+				position: relative;
+				z-index: 2;}
+
+.feed-item-title{color: #030217;
+				 font-size: 24px;
+				 padding:10px;}
+
+.social-media-buttons{background: rgba(000,000,000,0.75);
+						padding:7px;
+						color: #fff;
+						border-top: 1px solid rgba(255,255,255,0.13);
+						visibility: none;
+						position: absolute;
+						width: 358px;
+						top:45px;
+						border-radius: 0px 0px 3px 3px;}
+
+.padding-right{padding-right:7px;	
+			   padding-top:0px;}
+
+.thumb{margin-top:5px;}
+
+.count{margin-top: -5px;}
+
 .news-list{}
 .news-item{
 	background-color: aliceblue;
@@ -63,6 +105,13 @@ body{
 	text-align: center;
 	font-size: 20px
 }
+
+.center{text-align: center;}
+.left{text-align: left;}
+.right{text-align: right;}
+
+.author{font-size: 13px;
+		font-style: italic;}
 /*input{
 	border: 1px solid green;
 	padding: 5px;

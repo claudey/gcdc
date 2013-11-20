@@ -1,0 +1,38 @@
+.banner{
+	height: 400px;
+	margin-bottom: 20px;
+	background: url(http://www.electionchannel.com/images/Ghana-flags.jpg);
+	background-position: center;
+	background-size: cover
+}
+.navbar-default{
+	background-color: rgba(0, 0, 0, 0.2);
+	border-top: 1px white solid;
+	color: white
+}
+.navbar-brand{
+	font-weight: 700
+}
+.tagline{
+	text-align: center;
+	padding-top: 170px;
+	padding-bottom: 25px;
+	font-size: 4em;
+	color:#fff;
+	text-shadow:2px 2px 2px #000;
+}
+.feedable > a:hover{
+	cursor: pointer
+}
+.feed{
+    /*text-align: center;*/
+}
+.fd{
+	display: none
+}
+.welcome{
+	font-size: 4em
+}
+.profile-text{
+	text-align: left 
+}

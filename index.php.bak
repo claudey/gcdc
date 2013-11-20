@@ -1,3 +1,6 @@
+<?php 
+   
+?>
 <!doctype html>
 <html>
     <head>
@@ -37,7 +40,7 @@
 	                                        <a href="#">Create Issue</a>
 	                                    </li>
 	                                    <li>
-	                                        <a href="login.html">Signup/Login</a>
+	                                        <a href="login.php">Signup/Login</a>
 	                                    </li>
 	                                </ul>
 	                            </div>
@@ -49,9 +52,7 @@
         <!-- navbar ends -->
 
         <div class="container">
-        	<div class="banner">
-
-        	</div>
+        	<div class="banner">banner</div>
 
 			<!-- new feed -->
 			<div class="row feed">

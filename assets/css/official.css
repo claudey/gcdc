@@ -1,0 +1,15 @@
+.feedable > a:hover{
+	cursor: pointer
+}
+.feed{
+    /*text-align: center;*/
+}
+.fd{
+	display: none
+}
+.welcome{
+	font-size: 4em
+}
+.profile-text{
+	text-align: left 
+}
