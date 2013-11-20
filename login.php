@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>GCDC</title>
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="assets/css/bs.css">
-	    <link rel="stylesheet" href="assets/css/gcdc.css">
-	    <link rel="stylesheet" href="assets/css/login.css">
+        <link rel="stylesheet" href="/assets/css/bs.css">
+	    <link rel="stylesheet" href="/assets/css/gcdc.css">
+	    <link rel="stylesheet" href="/assets/css/login.css">
     </head>
     <body>
         <div class="container main">
@@ -30,7 +30,7 @@
 	        		<ul class="nav navbar-nav navbar-right">
 
 	        			<li class="dropdown">
-	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Officials <b class="caret"></b></a>
 	        				<ul class="dropdown-menu">
 	        					<li><a href="/follow#mp">MPs</a></li>
 	        					<li><a href="/follow#dce">DCEs</a></li>
@@ -77,8 +77,8 @@
 
     	<div class="footer">footer</div>
 
-        <script src="assets/js/jquery-2.0.3.js"></script>
-        <script src="assets/js/bs.min.js"></script>
-        <script src="assets/js/gcdc.js"></script>
+        <script src="/assets/js/jquery-2.0.3.js"></script>
+        <script src="/assets/js/bs.min.js"></script>
+        <script src="/assets/js/gcdc.js"></script>
     </body>
 </html>
