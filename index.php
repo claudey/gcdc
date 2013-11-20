@@ -6,47 +6,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Leaders Watch</title>
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/assets/css/bs.css">
-	    <link rel="stylesheet" href="/assets/css/gcdc.css">
-	    <link rel="stylesheet" href="/assets/css/index.css">
+        <link rel="stylesheet" href="assets/css/bs.css">
+	    <link rel="stylesheet" href="assets/css/gcdc.css">
+	    <link rel="stylesheet" href="assets/css/index.css">
     </head>
     <body>
+        
+        <nav class="container navbar navbar-inverse navbar-fixed-top" role="navigation">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="#"><i class="glyphicon glyphicon-eye-open"></i> Leaders Watch</a>
+        	</div>
+
+        	<!-- Collect the nav links, forms, and other content for toggling -->
+        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        		
+        		<ul class="nav navbar-nav navbar-right">
+
+        			<li class="dropdown">
+        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="/follow#mp">MPs</a></li>
+        					<li><a href="/follow#dce">DCEs</a></li>
+        					<li><a href="/follow#min">Ministers</a></li>
+        					<li class="divider"></li>
+        					<li><a href="/follow#prez">The President</a></li>
+        				</ul>
+        			</li>
+					<li><a href="#">Create Issue</a></li>
+					<li><a href="#">Sign up / Login</a></li>
+
+        		</ul>
+        	</div><!-- /.navbar-collapse -->
+        </nav>
+	    
+        <div class="banner">
+        	<div class="tagline">
+        		Hold Your Elected Leaders Accountable
+        	</div>
+    	</div>
+
         <div class="container main">
-	        <nav class="navbar navbar-default" role="navigation">
-	        	<!-- Brand and toggle get grouped for better mobile display -->
-	        	<div class="navbar-header">
-	        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	        			<span class="sr-only">Toggle navigation</span>
-	        			<span class="icon-bar"></span>
-	        			<span class="icon-bar"></span>
-	        			<span class="icon-bar"></span>
-	        		</button>
-	        		<a class="navbar-brand" href="#"><i class="glyphicon glyphicon-eye-open"></i> Leaders Watch</a>
-	        	</div>
-
-	        	<!-- Collect the nav links, forms, and other content for toggling -->
-	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	        		
-	        		<ul class="nav navbar-nav navbar-right">
-
-	        			<li class="dropdown">
-	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	        				<ul class="dropdown-menu">
-	        					<li><a href="/follow#mp">MPs</a></li>
-	        					<li><a href="/follow#dce">DCEs</a></li>
-	        					<li><a href="/follow#min">Ministers</a></li>
-	        					<li class="divider"></li>
-	        					<li><a href="/follow#prez">The President</a></li>
-	        				</ul>
-	        			</li>
-						<li><a href="#">Create Issue</a></li>
-						<li><a href="#">Sign up / Login</a></li>
-
-	        		</ul>
-	        	</div><!-- /.navbar-collapse -->
-	        </nav>
-
-
 			<!-- new feed -->
 			<div class="row feed">
 			    <div class="col-lg-4 feed-item">
@@ -65,9 +71,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -85,9 +91,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -105,9 +111,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -130,9 +136,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -150,9 +156,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -170,9 +176,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -195,9 +201,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -215,9 +221,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -235,9 +241,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -245,13 +251,12 @@
 			    	</div>	
 				</div>
 			</div>
-
         </div>  <!-- container ends here -->
 
     	<div class="footer">footer</div>
 
-        <script src="/assets/js/jquery-2.0.3.js"></script>
-        <script src="/assets/js/bs.min.js"></script>
-        <script src="/assets/js/gcdc.js"></script>
+        <script src="assets/js/jquery-2.0.3.js"></script>
+        <script src="assets/js/bs.min.js"></script>
+        <script src="assets/js/gcdc.js"></script>
     </body>
 </html>

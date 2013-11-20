@@ -63,13 +63,13 @@ body{
 				 padding:10px;}
 
 .social-media-buttons{background: rgba(000,000,000,0.75);
-						padding:7px;
+						padding:5px;
 						color: #fff;
 						border-top: 1px solid rgba(255,255,255,0.13);
 						visibility: none;
 						position: absolute;
 						width: 358px;
-						top:33px;
+						top:36px;
 						border-radius: 0px 0px 3px 3px;}
 
 .padding-right{padding-right:7px;	
