@@ -15,7 +15,7 @@
         	<div class="banner">
         		<div class="tagline col-lg-7 pull-right">Hold politically elected officials accountable</div>
         	</div>
-	        <nav class="container navbar navbar-default navbar-fixed-top" role="navigation">
+	        <nav class="container navbar navbar-inverse navbar-fixed-top" role="navigation">
 	        	<!-- Brand and toggle get grouped for better mobile display -->
 	        	<div class="navbar-header">
 	        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -54,7 +54,7 @@
 			<!-- new feed -->
 			<div class="row feed">
 			    <div class="col-lg-4 feed-item">
-			    	<h5 class="center">Most Recent Issues</h5>
+			    	<h5 class="center feed-head">Most Recent Issues</h5>
 			    	<div>
 			    		<div class="feed-item-list">
 			    			<div class="feed-item-title">
@@ -99,7 +99,7 @@
 			    	</div>	
 				</div>
 			    <div class="col-lg-4 feed-item">
-			    	<h5 class="center">Most Read Issues</h5>
+			    	<h5 class="center feed-head">Most Read Issues</h5>
 			    	<div>
 			    		<div class="feed-item-list">
 			    			<div class="feed-item-title">
@@ -144,7 +144,7 @@
 			    	</div>	
 				</div>
 			    <div class="col-lg-4 feed-item">
-			    	<h5 class="center">Most Voted Issues</h5>
+			    	<h5 class="center feed-head">Most Voted Issues</h5>
 			    	<div>
 			    		<div class="feed-item-list">
 			    			<div class="feed-item-title">
