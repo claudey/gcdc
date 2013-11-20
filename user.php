@@ -4,17 +4,13 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GCDC</title>
-<<<<<<< HEAD
+        <title>Leaders Watch</title>
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-=======
->>>>>>> 359cc67ac7734fe4e03720dfca7023bd33a41f45
         <link rel="stylesheet" href="assets/css/bs.css">
 	    <link rel="stylesheet" href="assets/css/gcdc.css">
 	    <link rel="stylesheet" href="assets/css/user.css">
     </head>
     <body>
-<<<<<<< HEAD
         <div class="container main">
 	        <nav class="navbar navbar-default" role="navigation">
 	        	<!-- Brand and toggle get grouped for better mobile display -->
@@ -25,7 +21,7 @@
 	        			<span class="icon-bar"></span>
 	        			<span class="icon-bar"></span>
 	        		</button>
-	        		<a class="navbar-brand" href="#">Leader Watch</a>
+	        		<a class="navbar-brand" href="#">Leaders Watch</a>
 	        	</div>
 
 	        	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,52 +45,6 @@
 	        		</ul>
 	        	</div><!-- /.navbar-collapse -->
 	        </nav>
-=======
-        <div class="main">
-	        <div class="navbar">
-	            <div class="navbar navbar-default">
-	                <div class="container">
-	                    <div class="row">
-	                        <div class="col-md-12">
-	                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-	                                <span class="icon-bar"></span>
-	                                <span class="icon-bar"></span>
-	                                <span class="icon-bar"></span>
-	                            </button>
-	                            <div class="navbar-header">
-	                                <a class="navbar-brand" href="index.html"><img alt="GCDC" src="" /></a>
-	                            </div>
-	                            <div class="collapse navbar-responsive-collapse navbar-collapse">
-	                                <ul class="nav nav-pills pull-right" id="nav">
-	                                	<form class="navbar-form navbar-left" role="search">
-                                	    	<div class="form-group">
-                                	        	<input type="text" class="form-control" placeholder="Search">
-                                	      	</div>
-                                	      <button type="submit" class="btn btn-default">Submit</button>
-                                	    </form>
-	                                    <li class="dropdown">
-	                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Officials<span class="caret"></span></a>
-	                                        <ul class="dropdown-menu">
-	                                            <li><a href="something.html">Something</a></li>
-	                                            <li><a href="something.html">Something</a></li>
-	                                            <li><a href="something.html">Something</a></li>
-	                                        </ul>
-	                                    </li>
-	                                    <li>
-	                                        <a href="#">Create Issue</a>
-	                                    </li>
-	                                    <li>
-	                                        <a href="login.html">Signup/Login</a>
-	                                    </li>
-	                                </ul>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>          
-	            </div>
-	        </div>
-        <!-- navbar ends -->
->>>>>>> 359cc67ac7734fe4e03720dfca7023bd33a41f45
 
         <div class="container">
         	<div class="row">
@@ -147,10 +97,7 @@
     	<div class="footer">footer</div>
 
         <script src="assets/js/jquery-2.0.3.js"></script>
-<<<<<<< HEAD
         <script src="assets/js/bs.min.js"></script>
-=======
->>>>>>> 359cc67ac7734fe4e03720dfca7023bd33a41f45
         <script src="assets/js/gcdc.js"></script>
     </body>
 </html>
