@@ -1,4 +1,7 @@
 <?php
+
+       
+
          include_once("db_connect.php");
 
         function signin($email,$password,$remember_me)
@@ -55,17 +58,13 @@
 						            
 						            header('Location:user.php');
 
+
 							   }
 					}
 		         }
-			    /*** close the database connection ***/
-			    $dbh = null;  
+			    
 			   }
-		       catch(PDOException $e){
-
-			       echo $e->getMessage();
-
-			    }		
+		       	
       }
 
 ?>
