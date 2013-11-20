@@ -56,129 +56,44 @@
 
 			<!-- new feed -->
 			<div class="row feed">
-			    <div class="col-sm-4 feed-item most-recent">
-			        <div class="feed-heading">Most Recent Issues</div>
-			        <div class="news-list"> 
-			            <div class="news-item" id="1">
-			                <p class="item-title">Water Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button class="btn btn-success">View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			            <div class="news-item" id="2">
-			                <p class="item-title">Doctors Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button>View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			        </div>
-			    </div>
-			    <div class="col-sm-4 feed-item most-read">
-			    	<div class="feed-heading">Most Read Issues</div>
-			    	<div class="news-list"> 
-			            <div class="news-item" id="3">
-			                <p class="item-title">Water Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button class="btn btn-success">View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			            <div class="news-item" id="4">
-			                <p class="item-title">Doctors Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button>View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			        </div>
-			    </div>
-			    <div class="col-sm-4 feed-item most-voted">
-			    	<div class="feed-heading">Most Voted Issues</div>
-			    	<div class="news-list"> 
-			            <div class="news-item" id="5">
-			                <p class="item-title">Water Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button class="btn btn-success">View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			            <div class="news-item" id="6">
-			                <p class="item-title">Doctors Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button>View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			        </div>
-			    </div>
+			    <div class="col-lg-4 feed-item">
+			    	<h5 class="center">Most Recent Issues</h5>
+			    	<hr>
+			    	<div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue
+			    				</br>
+			    				<span class="author right">Authored By: Juvenile</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up"></i> 345 &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down"></i> 54
+				    				</div>
+				    				<div class="col-lg-6">
+
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>	
+				</div>
+			    <div class="col-lg-4 feed-item">
+			    	<h5 class="center">Most Read Issues</h5>
+			    	<hr>
+			    	<div class="row">
+
+			    	</div>	
+				</div>
+			    <div class="col-lg-4 feed-item">
+			    	<h5 class="center">Most Voted Issues</h5>
+			    	<hr>
+			    	<div class="row">
+
+			    	</div>	
+				</div>
 			</div>
 
         </div>  <!-- container ends here -->
