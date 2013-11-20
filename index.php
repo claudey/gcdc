@@ -48,134 +48,145 @@
 	        </div>
         <!-- navbar ends -->
 
-        <div class="container">
-        	<div class="tagline">Hold politically elected officials accountable</div>
+        <div class="container">       	
 
 			<!-- new feed -->
 			<div class="row feed">
-			    <div class="col-sm-4 feed-item most-recent">
-			        <div class="feed-heading">Most Recent Issues</div>
-			        <div class="news-list"> 
-			            <div class="news-item" id="1">
-			                <p class="item-title">Water Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button class="btn btn-success">View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			            <div class="news-item" id="2">
-			                <p class="item-title">Doctors Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button>View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			        </div>
-			    </div>
-			    <div class="col-sm-4 feed-item most-read">
-			    	<div class="feed-heading">Most Read Issues</div>
-			    	<div class="news-list"> 
-			            <div class="news-item" id="3">
-			                <p class="item-title">Water Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button class="btn btn-success">View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			            <div class="news-item" id="4">
-			                <p class="item-title">Doctors Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button>View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			        </div>
-			    </div>
-			    <div class="col-sm-4 feed-item most-voted">
-			    	<div class="feed-heading">Most Voted Issues</div>
-			    	<div class="news-list"> 
-			            <div class="news-item" id="5">
-			                <p class="item-title">Water Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button class="btn btn-success">View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			            <div class="news-item" id="6">
-			                <p class="item-title">Doctors Issue</p>
-			                <div class="row">
-			                    <div class="col-md-8">
-			                        <p class="created-by">Creator</p>
-			                        <p class="assigned-to">Assignee</p>
-			                    </div>
-			                    <div class="col-md-4 view-issue item-hover">
-			                    <button>View Issue</button>
-			                    </div>
-			                </div>
-			                <div class="votes item-hover">
-			                    <div class="inl num-up-votes">243</div>
-			                    <div class="inl num-down-votes">19</div>
-			                    <div class="inl num-comments">104</div>
-			                </div>
-			                <div class="item-share item-hover"></div>
-			            </div>
-			        </div>
-			    </div>
+			    <div class="col-lg-4 feed-item">
+			    	<h5 class="center feed-head">Most Recent Issues</h5>
+			    	<div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue one
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>	
+				</div>
+			    <div class="col-lg-4 feed-item">
+			    	<h5 class="center feed-head">Most Read Issues</h5>
+			    	<div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue one
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>	
+				</div>
+			    <div class="col-lg-4 feed-item">
+			    	<h5 class="center feed-head">Most Voted Issues</h5>
+			    	<div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue one
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="feed-item-list">
+			    			<div class="feed-item-title">
+			    				Title of issue two
+			    				</br>
+			    				<span class="author right">Authored By: Juveniel</span>
+			    			</div>
+			    			<div class="social-media-buttons">			    				
+			    				<div class="row">
+			    					<div class="col-lg-6">
+				    					<i class="glyphicon glyphicon-thumbs-up thumb"></i> <span class="count">345</span> &nbsp;
+				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
+				    				</div>
+				    				<div class="col-lg-6">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    				</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>	
+				</div>
 			</div>
 
         </div>  <!-- container ends here -->
@@ -184,6 +195,6 @@
 
         <script src="/assets/js/jquery-2.0.3.js"></script>
         <script src="/assets/js/gcdc.js"></script>
-        <script src="assets/js/bs.min.js"></script>
+        <script src="/assets/js/bs.min.js"></script>
     </body>
 </html>

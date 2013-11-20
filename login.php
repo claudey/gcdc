@@ -51,6 +51,7 @@
         		<div class="col-md-6"><div class="login-text">image about the projects/quotes about it</div></div>
         		<div class="col-md-4">
         			<div class="sign-in">
+
         				<form class="form-signin" action="process.php" method="post">
 	                        <h2 class="form-signin-heading">Please sign in</h2>
 	                        <input type="text" name="email" class="form-control" placeholder="Email address" autofocus required><br>
@@ -58,7 +59,7 @@
 	                        <label class="checkbox">
 	                            <input type="checkbox" name="remember-me" value="remember-me"> Remember me
 	                        </label>
-	                        <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Sign in</button>
+	                        <button class="btn btn-lg btn-primary btn-block" name="signin" type="submit">Sign in</button>
 	                    </form>
 
 	                    <br>
