@@ -29,3 +29,13 @@ $('.prez').click(function(){
 	});
 	$('.feed-prez').css('display','inline');
 });
+
+$(".social-media-buttons").hide();
+
+$(".feed-item-list").on("mouseover",function(){
+	$(this).children("div.social-media-buttons").show();
+})
+
+$(".feed-item-list").on("mouseout",function(){
+	$(this).children("div.social-media-buttons").hide();
+})
