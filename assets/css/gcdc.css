@@ -6,20 +6,18 @@ body{
 	margin: 0;
 	border: 0;
 	color: #555555;
-	font-family: 'Open Sans', sans-serif;
 }
 .navbar{
 	border-radius: 0;
-	border: 0
+	border: 0;
+	color: white
 }
+.navbar-brand{
+	font-weight: 700
+}
+
 .main{}
-.banner{
-	height: 400px;
-	margin-bottom: 50px;
-	background: url(../img/banner.jpg);
-	background-position: center;
-	background-size: cover
-}
+
 .banner-text{
 	margin: 0 auto 20px auto;
 	font-size: 40px;

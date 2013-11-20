@@ -1,12 +1,10 @@
-<?php 
-   
-?>
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
         <title>GCDC</title>
         <link rel="stylesheet" href="/assets/css/bs.css">
 	    <link rel="stylesheet" href="/assets/css/gcdc.css">
@@ -52,7 +50,7 @@
         <!-- navbar ends -->
 
         <div class="container">
-        	<div class="banner">banner</div>
+        	<div class="tagline">Hold politically elected officials accountable</div>
 
 			<!-- new feed -->
 			<div class="row feed">
@@ -187,5 +185,6 @@
 
         <script src="/assets/js/jquery-2.0.3.js"></script>
         <script src="/assets/js/gcdc.js"></script>
+        <script src="assets/js/bs.min.js"></script>
     </body>
 </html>
