@@ -4,51 +4,47 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GCDC</title>
+        <title>Leaders Watch</title>
         <link rel="stylesheet" href="/assets/css/bs.css">
 	    <link rel="stylesheet" href="/assets/css/gcdc.css">
+	    <link rel="stylesheet" href="/assets/css/index.css">
     </head>
     <body>
-        <div class="main">
-	        <div class="navbar">
-	            <div class="navbar navbar-default">
-	                <div class="container">
-	                    <div class="row">
-	                        <div class="col-md-12">
-	                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-	                                <span class="icon-bar"></span>
-	                                <span class="icon-bar"></span>
-	                                <span class="icon-bar"></span>
-	                            </button>
-	                            <div class="navbar-header">
-	                                <a class="navbar-brand" href="#"><img alt="GCDC" src="" /></a>
-	                            </div>
-	                            <div class="collapse navbar-responsive-collapse navbar-collapse">
-	                                <ul class="nav nav-pills pull-right" id="nav">
-	                                    <li class="dropdown">
-	                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Officials<span class="caret"></span></a>
-	                                        <ul class="dropdown-menu">
-	                                            <li><a href="something.html">Something</a></li>
-	                                            <li><a href="something.html">Something</a></li>
-	                                            <li><a href="something.html">Something</a></li>
-	                                        </ul>
-	                                    </li>
-	                                    <li>
-	                                        <a href="#">Create Issue</a>
-	                                    </li>
-	                                    <li>
-	                                        <a href="/login">Signup/Login</a>
-	                                    </li>
-	                                </ul>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>          
-	            </div>
-	        </div>
-        <!-- navbar ends -->
+        <div class="container main">
+	        <nav class="navbar navbar-default" role="navigation">
+	        	<!-- Brand and toggle get grouped for better mobile display -->
+	        	<div class="navbar-header">
+	        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        			<span class="sr-only">Toggle navigation</span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        		</button>
+	        		<a class="navbar-brand" href="#">Leaders Watch</a>
+	        	</div>
 
-        <div class="container">       	
+	        	<!-- Collect the nav links, forms, and other content for toggling -->
+	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        		
+	        		<ul class="nav navbar-nav navbar-right">
+
+	        			<li class="dropdown">
+	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+	        				<ul class="dropdown-menu">
+	        					<li><a href="/follow#mp">MPs</a></li>
+	        					<li><a href="/follow#dce">DCEs</a></li>
+	        					<li><a href="/follow#min">Ministers</a></li>
+	        					<li class="divider"></li>
+	        					<li><a href="/follow#prez">The President</a></li>
+	        				</ul>
+	        			</li>
+						<li><a href="#">Create Issue</a></li>
+						<li><a href="#">Sign up / Login</a></li>
+
+	        		</ul>
+	        	</div><!-- /.navbar-collapse -->
+	        </nav>
+
 
 			<!-- new feed -->
 			<div class="row feed">

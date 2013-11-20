@@ -47,7 +47,6 @@
 	        	</div><!-- /.navbar-collapse -->
 	        </nav>
 
-        <div class="container">
         	<div class="row">
 
         		<nav class="offices">
