@@ -17,11 +17,6 @@
               $firstName = $_POST['firstName'];
               $lastName = $_POST['lastName'];
 
-              echo $email;
-              echo $password;
-              echo $firstName;
-              echo $lastName;
-              exit();
               signup($email,$password,$firstName,$lastName);
            }elseif (isset($_POST['create_issue'])) {
              $issueTitle = $_POST['issueTitle'];

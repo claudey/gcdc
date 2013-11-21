@@ -78,13 +78,13 @@
           $result = mysql_query("SELECT * FROM users WHERE email='$email'") OR DIE (mysql_error());
           if (mysql_num_rows($result)==0) {
 
-               $result2 = mysql_query("INSERT INTO users (email,password,firstName,lastName) VALUES ('$email','$password','$firstName','$firstName') ") OR die (mysql_error());
+               $result2 = mysql_query("INSERT INTO users (email,password,firstName,lastName,lastlogin) VALUES ('$email','$password','$firstName','$firstName',now()) ") OR die (mysql_error());
                if (!$result2) {
                     # code...
                     die('Could not insert into database: '.mysql_error());
                }else{
                      
-                     $_SESSION['id'] = mysql_insert_id();
+                    // $_SESSION['id'] = mysql_insert_id();
                      header('Location:user.php');
                }
           }else{

@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Leaders Watch</title>
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/assets/css/bs.css">
-	    <link rel="stylesheet" href="/assets/css/gcdc.css">
-	    <link rel="stylesheet" href="/assets/css/login.css">
+        <link rel="stylesheet" href="assets/css/bs.css">
+	    <link rel="stylesheet" href="assets/css/gcdc.css">
+	    <link rel="stylesheet" href="assets/css/login.css">
     </head>
     <body>
         <div class="container main">
