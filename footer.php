@@ -25,7 +25,7 @@
                 </div>
             </div>  
             <div class="col-lg-4">
-                <h5>Leaders Watch &copy; 2013</h5>
+                <h5>Leaders Watch &copy; <script>document.write(new Date().getFullYear())</script></h5>
                 
             </div>
         </div>          
