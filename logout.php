@@ -1,6 +1,6 @@
 <?php
-	session_start();
-	/* 
+	    session_start();
+	   /* 
 	Created By Aliu 
 	-----------------------November 20, 2013----------------------- 
 	*/
@@ -10,7 +10,7 @@
 			header("Location:index.php");
 		} else 
 		{
-			$msg = "<h2>Could not log you out</h2>";
+			echo "<h2>Could not log you out</h2>";
 		} 
 ?>
 

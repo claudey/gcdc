@@ -59,20 +59,20 @@
     				</div>
         			<div class="fd feed-dce">
 
-						<form class="form-signin" action="/process" method="post">
+						<form class="form-signin" action="process.php" method="post">
 	                        <h2 class="form-signin-heading">Share Your Achievements</h2>
 							<fieldset>
 								<div class="row">
 									<div class="form-group col-md-8">
 										<p>Project Title<p>
-	                    				<input type="text" name="fname" class="form-control" placeholder="Project Title" required>
+	                    				<input type="text" name="title" class="form-control" placeholder="Project Title" required>
 									</div>
 								</div>
 
 								<div class="row">
 									<div class="form-group col-md-8">
 										<p>Project Description<p>
-	                        			<textarea name="" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
+	                        			<textarea name="description" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
 									</div>
 								</div>
 
@@ -84,7 +84,7 @@
 								</div>
 
 								<div class="row">
-	                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="signup" type="submit">Share achievement</button></div>
+	                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="achievement" type="submit">Share achievement</button></div>
 								</div>
 							</fieldset>
                     	</form>

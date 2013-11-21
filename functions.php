@@ -145,7 +145,30 @@
       	}
 
       }
+
+
+      function createAchievement($title,$description,$completionDate)
+      {
+        # code...
+
+        session_start();
+
+        if (!isset($_SESSION['useremail'])) {
+          # code...
+         $official_id = $_SESSION['id'];
+         $officialEmail= $_SESSION['useremail'];
+
+         $result = mysql_query("INSERT INTO achievement (official_id,title,description,dateCompleted) VALUES('$official_id','$title','$description','dateCompleted')") OR die (mysql_error());
+         echo "Project created";
+
+        }else{
+          echo "You must be a log in user to create an issues";
+          exit();
+        }
+
+    }
 ?>
+
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

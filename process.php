@@ -24,6 +24,14 @@
              $issueAssignee = $_POST['issueAssignee'];
              createIssue($issueTitle,$issueDescription,$issueAssignee);
 
+           }elseif (isset($_POST['achievement'])) {
+             # code...
+              $title = $_POST['title'];
+              $description = $_POST['description'];
+              $completionDate = $_POST['completionDate'];
+
+
+              createAchievement($title,$description,$completionDate);
            }
 ?>
 
