@@ -32,7 +32,7 @@
 							   //exit();
 
 							       //details of a user who has log in or sign up
-										while($row = mysql_fetch_array($sql)){
+								  while($row = mysql_fetch_array($sql)){
 										$user_id = $row['id'];
 										$email = $row["email"];
 										$password = $row["password"];
