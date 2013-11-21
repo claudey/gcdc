@@ -53,17 +53,17 @@
         				<h4 class="modal-title" id="myModalLabel">Create Issue</h4>
         			</div>
         			<div class="modal-body">
-        				<form class="form-horizontal" role="form">
+        				<form class="form-horizontal" role="form" action="process.php" method="post" >
         					<div class="form-group">
         					<label class="col-sm-2 control-label">Title</label>
         						<div class="col-sm-10">
-        							<input type="email" class="form-control" placeholder="Title of the issue">
+        							<input type="text" name="issueTitle" class="form-control" placeholder="Title of the issue">
         						</div>
         					</div>
         					<div class="form-group">
-        						<label class="col-sm-2 control-label">Content</label>
+        						<label class="col-sm-2 control-label">Description</label>
         						<div class="col-sm-10">
-        							 <textarea class="form-control" rows="5" placeholder="Say it as it is."></textarea>
+        							 <textarea class="form-control" name="issueDescription" rows="5" placeholder="Say it as it is."></textarea>
         						</div>
         					</div>
         					<div class="form-group">
@@ -80,16 +80,17 @@
         										<li class="off"><a href="#">The President</a></li>
         									</ul>
         								</div><!-- /btn-group -->
-        								<input type="text" class="form-control" placeholder="Please enter a name or title">
+        								<input type="text" name="issueAssignee" class="form-control" placeholder="Please enter a name or title">
         							</div><!-- /input-group -->
         						</div><!-- /.col-lg-6 -->
         					</div>
+        					<div class="modal-footer">
+		        				<button type="submit" class="btn btn-default" data-dismiss="modal">Close</button>
+		        				<button type="submit" name="create_issue" class="btn btn-primary">Create an Issue</button>
+		        			</div>
         				</form>
         			</div>
-        			<div class="modal-footer">
-        				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        				<button type="button" class="btn btn-primary">Create an Issue</button>
-        			</div>
+        			
         		</div><!-- /.modal-content -->
         	</div><!-- /.modal-dialog -->
         </div><!-- /.modal -->

@@ -96,4 +96,43 @@
 
       }
 
-?>
+
+      function createIssue($issueTitle,$issueDescription,$issueAssignee)
+      {
+      	# code...
+
+      	//$result = mysql_query("SELECT * FROM  issues WHERE ")
+
+      	session_start();
+
+      	if (isset($_SESSION['useremail'])) {
+      		# code...
+      	$owner= $_SESSION['useremail'];
+
+      	$owner_id = mysql_query("SELECT id FROM users WHERE email='$owner' LIMIT 1") OR DIE (mysql_error());
+
+      	$owner_id = 1;
+
+      	if (strlen($issueAssignee) < 3) {
+      		# code...
+      		$addressee_id = 1;
+
+      	}elseif(strlen($issueAssignee) > 3){
+            
+            $addressee_id = 2;
+      	}else{
+      		$addressee_id = 3;
+      	}
+
+
+      	$result = mysql_query("INSERT INTO issues (owner_id,addressee_id,issueTitle,issueDescription) VALUES('$owner_id','$addressee_id','$issueTitle','issueDescription')") OR die (mysql_error());
+      	echo "Issue created";
+
+      	}else{
+      		echo "You must be a log in user to create an issues";
+      		exit();
+      	}
+
+      }
+
+ 

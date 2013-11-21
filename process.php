@@ -23,5 +23,11 @@
               echo $lastName;
               exit();
               signup($email,$password,$firstName,$lastName);
+           }elseif (isset($_POST['create_issue'])) {
+             $issueTitle = $_POST['issueTitle'];
+             $issueDescription = $_POST['issueDescription'];
+             $issueAssignee = $_POST['issueAssignee'];
+             createIssue($issueTitle,$issueDescription,$issueAssignee);
+
            }
 ?>
