@@ -1,0 +1,37 @@
+.profile-stat{
+	text-align: center
+}
+.feedable > a:hover{
+	cursor: pointer
+}
+.feed{
+    /*text-align: center;*/
+}
+.fd{
+	display: none
+}
+.welcome{
+	font-size: 4em;
+	text-align: center
+}
+.profile-text{
+	text-align: left 
+}
+.header{
+	height: 250px;
+	border-radius: 10px 10px 0 0;
+    background-image: url('../img/indece.png');
+	background-size: cover;
+	color: rgb(22, 15, 58);
+	font-size: 24px;
+}
+.profile-pic,
+.profile-text{
+	margin-top: 25px
+}
+.profile-pic > img{
+	border-radius: 5px
+}
+.profile-stat{
+	margin-top: 20px
+}
