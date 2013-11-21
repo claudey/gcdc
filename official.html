@@ -53,6 +53,7 @@
 						<li><a class="btn-lg btn-success feedable dce">Create project</a></li>
 						<li><p><br></p></li>
 						<li class="active feedable mp"><a>Issues</a></li>
+						<li class="active feedable min"><a>My Projects</a></li>
 						<li class="feedable prez"><a>Profile</a></li>
 					</ul>
 				</div>
@@ -88,37 +89,39 @@
         			<div class="fd feed-dce">
 
 						<form class="form-signin" action="/process" method="post">
-                        <h2 class="form-signin-heading">Share Your Achievements</h2>
-						<fieldset>
-							<div class="row">
-								<div class="form-group col-md-8">
-									<p>Project Title<p>
-                    				<input type="text" name="fname" class="form-control" placeholder="Project Title" required>
+	                        <h2 class="form-signin-heading">Share Your Achievements</h2>
+							<fieldset>
+								<div class="row">
+									<div class="form-group col-md-8">
+										<p>Project Title<p>
+	                    				<input type="text" name="fname" class="form-control" placeholder="Project Title" required>
+									</div>
 								</div>
-							</div>
 
-							<div class="row">
-								<div class="form-group col-md-8">
-									<p>Project Description<p>
-                        			<textarea name="" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
+								<div class="row">
+									<div class="form-group col-md-8">
+										<p>Project Description<p>
+	                        			<textarea name="" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
+									</div>
 								</div>
-							</div>
 
-							<div class="row">
-								<div class="form-group col-md-4">
-									<p>Completion Date<p>
-                        			<input type="date" name="completionDate" class="form-control" required>
+								<div class="row">
+									<div class="form-group col-md-4">
+										<p>Completion Date<p>
+	                        			<input type="date" name="completionDate" class="form-control" required>
+									</div>
 								</div>
-							</div>
 
-							<div class="row">
-                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="signup" type="submit">Share achievement</button></div>
-							</div>
-						</fieldset>
-                    </form>
+								<div class="row">
+	                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="signup" type="submit">Share achievement</button></div>
+								</div>
+							</fieldset>
+                    	</form>
 
         			</div>
-        			<div class="fd feed-min">Minister will post their updates to subscribed users here. All short and sweet.</div>
+        			<div class="fd feed-min">
+						<h3>Your Achievements</h3>
+        			</div>
         			<div class="fd feed-prez">
 						<div class="row header">
 							<!-- <div class="blur"> -->
