@@ -745,4 +745,7 @@
         <script src="assets/js/bs.min.js"></script>
         <script src="assets/js/gcdc.js"></script>
     </body>
+    <?php
+        @include("footer.php")
+    ?>
 </html>

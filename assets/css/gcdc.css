@@ -133,3 +133,11 @@ input:focus,textarea:focus,select:focus{
  padding: 5px;
 
 }*/
+
+.main{min-height: 100%;}
+
+footer{min-height:100px;
+	   padding-top:5px;
+	   background-color: #000;
+	   color:#fff;
+	   margin-top: -10px;}
