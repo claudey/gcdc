@@ -18,7 +18,7 @@
 					echo "Please enter your email and password";
 			        exit();
 				     } else {
-				       $sql = mysql_query("SELECT email, password FROM users WHERE email='$email' AND password='$password' LIMIT 1");
+				       $sql = mysql_query("SELECT id, email, password FROM users WHERE email='$email' AND password='$password' LIMIT 1");
 				       // $sql = mysql_query("SELECT * FROM profile_data WHERE user_id='$user' LIMIT 1");
 				       $count = mysql_num_rows($sql);
 
@@ -30,12 +30,21 @@
 						}else{   
 							   //echo $count;
 							   //exit();
-                               
+
+							       //details of a user who has log in or sign up
+										while($row = mysql_fetch_array($sql)){
+										$user_id = $row['id'];
+										$email = $row["email"];
+										$password = $row["password"];
+									}
+							                               
                                 // CREATE THEIR SESSIONS AND COOKIES
+								$_SESSION['id'] = $row['id'];
 								$_SESSION['useremail'] = $email;
 								$_SESSION['password'] = $password;
 								$useremail =$_SESSION['useremail'];
 								$userpass =$_SESSION['password'];
+								$userid = $_SESSION['id'];
 
 								// echo $useremail;
 								// exit();
