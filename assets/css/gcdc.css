@@ -1,3 +1,8 @@
+html,
+body{
+	height: 100%
+}
+
 html{
 	overflow-y:scroll
 }
@@ -6,6 +11,13 @@ body{
 	margin: 0;
 	border: 0;
 	color: #555555;
+}
+#wrap{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -40px;
 }
 
 .content{margin-top: 70px;}
@@ -133,3 +145,8 @@ input:focus,textarea:focus,select:focus{
  padding: 5px;
 
 }*/
+
+.footer{
+	height: 40px;
+	background-color: #eee;
+}

@@ -11,7 +11,7 @@
 	    <link rel="stylesheet" href="assets/css/official.css">
     </head>
     <body>
-        <div class="container main">
+        <div class="container main" id="wrap">
 	        
 	        <nav class="navbar navbar-default" role="navigation">
 	        	<!-- Brand and toggle get grouped for better mobile display -->
@@ -121,32 +121,43 @@
         			<div class="fd feed-min">Minister will post their updates to subscribed users here. All short and sweet.</div>
         			<div class="fd feed-prez">
 						<div class="row header">
-							<div class="col-md-4 profile-pic"><img src="http://placehold.it/200x200" alt="official's image"></div>
-							<div class="col-md-8 profile-text">
-								<div class="profile-name">Hon. Albert Fiati</div>
-								<div class="profile-title">Minister of Code and Algorithms</div>
-								<div class="row profile-stat">
-									<div class="col-md-2 col-md-offset-2">
-										<p>projects</p>
-										<span>400</span>
+							<!-- <div class="blur"> -->
+								<div class="col-md-4 profile-pic"><img src="http://placehold.it/200x200" alt="official's image"></div>
+								<div class="col-md-8 profile-text">
+									<div class="profile-name">Hon. Albert Fiati</div>
+									<div class="profile-title">Minister of Code and Algorithms</div>
+									<div class="row profile-stat">
+										<div class="col-md-3 col-md-offset-1">
+											<span>Projects</span>
+											<p>400</p>
+										</div>
+										<div class="col-md-3">
+											<span>Issues</span>
+											<p>38</p>
+										</div>
+										<div class="col-md-3">
+											<span>Followers</span>
+											<p>5483</p>
+										</div>
 									</div>
-									<div class="col-md-2">
-										<p>Issues</p>
-										<span>38</span>
-									</div>
-									<div class="col-md-2">
-										<p>followers</p>
-										<span>5483</span>
-									</div>
-								</div>
+								<!-- </div> -->
 							</div>
 						</div>
         			</div>
+
+					<div class="box">
+					<div class="blur"></div>
+					</div>
+
+
 				</div>
         	</div> <!-- row ends here -->
         </div>  <!-- container ends here -->
 
-    	<div class="footer">footer</div>
+    	<div class="footer container">
+			<p class="pull-left">Leader Watch, <script>document.write(new Date().getFullYear())</script></p>
+			<p class="pull-right">About us, Terms of Use, plus 1 link</p>
+    	</div>
 
         <script src="assets/js/jquery-2.0.3.js"></script>
         <script src="assets/js/bs.min.js"></script>
