@@ -119,9 +119,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -139,9 +139,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -159,9 +159,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -184,9 +184,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -204,9 +204,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -224,9 +224,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -249,9 +249,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -269,9 +269,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>
@@ -289,9 +289,9 @@
 				    					<i class="glyphicon glyphicon-thumbs-down thumb"></i> <span class="count">35</span>
 				    				</div>
 				    				<div class="col-lg-6">
-				    					<img src="/assets/img/facebook-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Twitter-Icon.png" class="pull-right padding-right">
-				    					<img src="/assets/img/Google-plus-icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/facebook-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Twitter-Icon.png" class="pull-right padding-right">
+				    					<img src="assets/img/Google-plus-icon.png" class="pull-right padding-right">
 				    				</div>
 			    				</div>
 			    			</div>

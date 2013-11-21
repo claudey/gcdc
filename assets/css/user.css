@@ -2,7 +2,7 @@
 	cursor: pointer
 }
 .feed{
-    /*text-align: center;*/
+	margin-top: 20px;
 }
 .fd{
 	display: none
@@ -10,3 +10,4 @@
 .welcome{
 	font-size: 4em
 }
+

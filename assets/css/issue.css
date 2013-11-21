@@ -1,19 +1,19 @@
 .content-header{margin-bottom: 20px;}
 
-<<<<<<< HEAD
-=======
+
 .content-title{color:#090484;}
 
->>>>>>> albert
 .date-posted{margin-bottom: 15px;}
 
-.content-content{margin:40px 0px 40px 5px;}
+.content-content{margin:20px 0px 40px 5px;}
+
+.content-content1{margin:20px 0px 5px 5px;}
 
 .comment-form{margin-bottom:10px;
 			  padding-bottom: 10px;}
 
-<<<<<<< HEAD
-.older-comments{}
-=======
 .older-comments{margin-left: 20px;}
->>>>>>> albert
+
+.issue-container{margin-bottom: 10px;
+				   padding:5px;}
+
