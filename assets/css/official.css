@@ -18,51 +18,13 @@
 	text-align: left 
 }
 .header{
-	/*content: "";*/
-	/*position: absolute;*/
 	height: 250px;
-	/*background-color: pink;*/
-	border-radius: 10px;
-	background-image: url('http://www.afdb.org/fileadmin/uploads/afdb/Photos/ghana_2.jpg');
+	border-radius: 10px 10px 0 0;
+    background-image: url('../img/indece.png');
 	background-size: cover;
-    /*z-index: -1;*/
-	color: white;
+	color: rgb(22, 15, 58);
 	font-size: 24px;
-    overflow: hidden;
-    /*margin:5px;*/
-
-    /*-webkit-transform: scale(5);*/
-    /*-webkit-transform-origin: top left;*/
-    /*-webkit-filter: blur(2px);*/
-
 }
-/*.blur {
-    background: url("http://www.afdb.org/fileadmin/uploads/afdb/Photos/ghana_2.jpg");
-    height:250px;
-    background-size: cover;
-    -webkit-filter: blur(8px);
-       -moz-filter: blur(8px);
-    	-ms-filter: blur(8px);
-    	 -o-filter: blur(8px);
-    		filter: blur(8px);
-    opacity: 0.4
-}*/
-
-
-.box {
-    overflow: hidden;
-    margin:5px;
-}
-
-.blur {
-    -webkit-filter: blur(20px);
-    margin: -5px 0 0 -5px;
-    background: url("https://news.slac.stanford.edu/sites/default/files/imagecache/Img350_Scale/images/image/demag-300h.jpg");
-    height:300px;
-    width:300px;
-}
-
-
 .profile-pic,
 .profile-text{
 	margin-top: 25px

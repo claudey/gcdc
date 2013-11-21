@@ -23,7 +23,8 @@
 						<li><a class="btn-lg btn-success feedable dce">Create project</a></li>
 						<li><p><br></p></li>
 						<li class="active feedable mp"><a>Issues</a></li>
-						<li class="active feedable min"><a>My Projects</a></li>
+						<li class="active feedable min">
+							<a>My Projects<span class="badge pull-right">0</span></a></li>
 						<li class="feedable prez"><a>Profile</a></li>
 					</ul>
 				</div>
@@ -91,29 +92,42 @@
         			</div>
         			<div class="fd feed-min">
 						<h3>Your Achievements</h3>
+		
+						<div class="achievement">
+							<div class="panel panel-info">
+								<div class="panel-heading">Title of Achievement</div>
+								<div class="row panel-body">
+									<div class="col-md-3"><img src="http://placehold.it/150x150" alt=""></div>
+									<div class="col-md-9">
+										<p>Details of the achievement are listed here: </p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro omnis esse deserunt! Placeat, itaque, repellendus, ipsa dolorum at reprehenderit explicabo facilis quod incidunt rem provident sapiente assumenda vel. Neque, cupiditate!</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
         			</div>
+
         			<div class="fd feed-prez">
 						<div class="row header">
-							<!-- <div class="blur"> -->
-								<div class="col-md-4 profile-pic"><img src="http://placehold.it/200x200" alt="official's image"></div>
-								<div class="col-md-8 profile-text">
-									<div class="profile-name">Hon. Albert Fiati</div>
-									<div class="profile-title">Minister of Code and Algorithms</div>
-									<div class="row profile-stat">
-										<div class="col-md-3 col-md-offset-1">
-											<span>Projects</span>
-											<p>400</p>
-										</div>
-										<div class="col-md-3">
-											<span>Issues</span>
-											<p>38</p>
-										</div>
-										<div class="col-md-3">
-											<span>Followers</span>
-											<p>5483</p>
-										</div>
+							<div class="col-md-4 profile-pic"><img src="http://placehold.it/200x200" alt="official's image"></div>
+							<div class="col-md-8 profile-text">
+								<h2 class="row profile-name">Hon. Albert Fiati</h2>
+								<div class="row profile-title">Minister of Code and Algorithms</div>
+								<div class="row profile-stat">
+									<div class="col-md-3">
+										<h5>Projects</h5>
+										<p>400</p>
 									</div>
-								<!-- </div> -->
+									<div class="col-md-3">
+										<h5>Issues</h5>
+										<p>38</p>
+									</div>
+									<div class="col-md-3">
+										<h5>Followers</h5>
+										<p>5483</p>
+									</div>
+								</div>
 							</div>
 						</div>
         			</div>
@@ -126,11 +140,6 @@
 				</div>
         	</div> <!-- row ends here -->
         </div>  <!-- container ends here -->
-
-    	<div class="footer container">
-			<p class="pull-left">Leader Watch, <script>document.write(new Date().getFullYear())</script></p>
-			<p class="pull-right">About us, Terms of Use, plus 1 link</p>
-    	</div>
 
         <script src="assets/js/jquery-2.0.3.js"></script>
         <script src="assets/js/bs.min.js"></script>
