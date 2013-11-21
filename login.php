@@ -66,7 +66,7 @@
         			<div class="sign-in">
 
         				<form class="form-signin" action="process.php" method="post">
-	                        <h2 class="form-signin-heading">Please sign in</h2>
+	                        <h2 class="form-signin-heading">Sign In Here</h2>
 	                        <input type="text" name="email" class="form-control" placeholder="Email address" autofocus required><br>
 	                        <input type="password" name="password" class="form-control" placeholder="Password" required>
 	                        <label class="checkbox">
@@ -90,9 +90,9 @@
 
     	<div class="footer">footer</div>
 
-        <script src="/assets/js/jquery-2.0.3.js"></script>
-        <script src="/assets/js/bs.min.js"></script>
-        <script src="/assets/js/gcdc.js"></script>
+        <script src="assets/js/jquery-2.0.3.js"></script>
+        <script src="assets/js/bs.min.js"></script>
+        <script src="assets/js/gcdc.js"></script>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
