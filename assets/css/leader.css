@@ -4,8 +4,9 @@
 .feedable > a:hover{
 	cursor: pointer
 }
-.feed{
-    /*text-align: center;*/
+.leader-page{
+	text-align: center;
+	
 }
 .fd{
 	display: none
