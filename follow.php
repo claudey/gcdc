@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
     <head>
@@ -756,4 +755,7 @@
 
         </script>
     </body>
+    <?php
+        @include("footer.php")
+    ?>
 </html>

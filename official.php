@@ -11,41 +11,11 @@
 	    <link rel="stylesheet" href="assets/css/official.css">
     </head>
     <body>
-        <div class="container main">
+        <div class="container main" id="wrap">
 	        
-	        <nav class="navbar navbar-default" role="navigation">
-	        	<!-- Brand and toggle get grouped for better mobile display -->
-	        	<div class="navbar-header">
-	        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	        			<span class="sr-only">Toggle navigation</span>
-	        			<span class="icon-bar"></span>
-	        			<span class="icon-bar"></span>
-	        			<span class="icon-bar"></span>
-	        		</button>
-	        		<a class="navbar-brand" href="#">Leaders Watch</a>
-	        	</div>
-
-	        	<!-- Collect the nav links, forms, and other content for toggling -->
-	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	        		
-	        		<ul class="nav navbar-nav navbar-right">
-
-	        			<li class="dropdown">
-	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Officials <b class="caret"></b></a>
-	        				<ul class="dropdown-menu">
-	        					<li><a href="/follow#mp">MPs</a></li>
-	        					<li><a href="/follow#dce">DCEs</a></li>
-	        					<li><a href="/follow#min">Ministers</a></li>
-	        					<li class="divider"></li>
-	        					<li><a href="/follow#prez">The President</a></li>
-	        				</ul>
-	        			</li>
-						<li><a href="#">Create Issue</a></li>
-						<li><a href="#">Sign up/Login</a></li>
-
-	        		</ul>
-	        	</div><!-- /.navbar-collapse -->
-	        </nav>
+	        <?php
+                @include("header.php");
+            ?>
 
         	<div class="row">
 				<div class="col-md-3">
@@ -53,6 +23,8 @@
 						<li><a class="btn-lg btn-success feedable dce">Create project</a></li>
 						<li><p><br></p></li>
 						<li class="active feedable mp"><a>Issues</a></li>
+						<li class="active feedable min">
+							<a>My Projects<span class="badge pull-right">0</span></a></li>
 						<li class="feedable prez"><a>Profile</a></li>
 					</ul>
 				</div>
@@ -88,65 +60,86 @@
         			<div class="fd feed-dce">
 
 						<form class="form-signin" action="/process" method="post">
-                        <h2 class="form-signin-heading">Share Your Achievements</h2>
-						<fieldset>
-							<div class="row">
-								<div class="form-group col-md-8">
-									<p>Project Title<p>
-                    				<input type="text" name="fname" class="form-control" placeholder="Project Title" required>
+	                        <h2 class="form-signin-heading">Share Your Achievements</h2>
+							<fieldset>
+								<div class="row">
+									<div class="form-group col-md-8">
+										<p>Project Title<p>
+	                    				<input type="text" name="fname" class="form-control" placeholder="Project Title" required>
+									</div>
 								</div>
-							</div>
 
-							<div class="row">
-								<div class="form-group col-md-8">
-									<p>Project Description<p>
-                        			<textarea name="" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
+								<div class="row">
+									<div class="form-group col-md-8">
+										<p>Project Description<p>
+	                        			<textarea name="" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
+									</div>
 								</div>
-							</div>
 
-							<div class="row">
-								<div class="form-group col-md-4">
-									<p>Completion Date<p>
-                        			<input type="date" name="completionDate" class="form-control" required>
+								<div class="row">
+									<div class="form-group col-md-4">
+										<p>Completion Date<p>
+	                        			<input type="date" name="completionDate" class="form-control" required>
+									</div>
 								</div>
-							</div>
 
-							<div class="row">
-                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="signup" type="submit">Share achievement</button></div>
-							</div>
-						</fieldset>
-                    </form>
+								<div class="row">
+	                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="signup" type="submit">Share achievement</button></div>
+								</div>
+							</fieldset>
+                    	</form>
 
         			</div>
-        			<div class="fd feed-min">Minister will post their updates to subscribed users here. All short and sweet.</div>
+        			<div class="fd feed-min">
+						<h3>Your Achievements</h3>
+		
+						<div class="achievement">
+							<div class="panel panel-info">
+								<div class="panel-heading">Title of Achievement</div>
+								<div class="row panel-body">
+									<div class="col-md-3"><img src="http://placehold.it/150x150" alt=""></div>
+									<div class="col-md-9">
+										<p>Details of the achievement are listed here: </p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro omnis esse deserunt! Placeat, itaque, repellendus, ipsa dolorum at reprehenderit explicabo facilis quod incidunt rem provident sapiente assumenda vel. Neque, cupiditate!</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+        			</div>
+
         			<div class="fd feed-prez">
 						<div class="row header">
 							<div class="col-md-4 profile-pic"><img src="http://placehold.it/200x200" alt="official's image"></div>
 							<div class="col-md-8 profile-text">
-								<div class="profile-name">Hon. Albert Fiati</div>
-								<div class="profile-title">Minister of Code and Algorithms</div>
+								<h2 class="row profile-name">Hon. Albert Fiati</h2>
+								<div class="row profile-title">Minister of Code and Algorithms</div>
 								<div class="row profile-stat">
-									<div class="col-md-2 col-md-offset-2">
-										<p>projects</p>
-										<span>400</span>
+									<div class="col-md-3">
+										<h5>Projects</h5>
+										<p>400</p>
 									</div>
-									<div class="col-md-2">
-										<p>Issues</p>
-										<span>38</span>
+									<div class="col-md-3">
+										<h5>Issues</h5>
+										<p>38</p>
 									</div>
-									<div class="col-md-2">
-										<p>followers</p>
-										<span>5483</span>
+									<div class="col-md-3">
+										<h5>Followers</h5>
+										<p>5483</p>
 									</div>
 								</div>
 							</div>
 						</div>
         			</div>
+
+					<div class="box">
+					<div class="blur"></div>
+					</div>
+
+
 				</div>
         	</div> <!-- row ends here -->
         </div>  <!-- container ends here -->
-
-    	<div class="footer">footer</div>
 
         <script src="assets/js/jquery-2.0.3.js"></script>
         <script src="assets/js/bs.min.js"></script>
@@ -163,4 +156,7 @@
 
 		</script>
     </body>
+    <?php
+        @include("footer.php")
+    ?>
 </html>

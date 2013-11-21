@@ -19,9 +19,11 @@
 }
 .header{
 	height: 250px;
-	background-color: pink;
-	border-radius: 10px
-
+	border-radius: 10px 10px 0 0;
+    background-image: url('../img/indece.png');
+	background-size: cover;
+	color: rgb(22, 15, 58);
+	font-size: 24px;
 }
 .profile-pic,
 .profile-text{
@@ -29,4 +31,7 @@
 }
 .profile-pic > img{
 	border-radius: 5px
+}
+.profile-stat{
+	margin-top: 20px
 }
