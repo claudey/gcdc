@@ -1,3 +1,6 @@
+.profile-stat{
+	text-align: center
+}
 .feedable > a:hover{
 	cursor: pointer
 }
@@ -8,8 +11,22 @@
 	display: none
 }
 .welcome{
-	font-size: 4em
+	font-size: 4em;
+	text-align: center
 }
 .profile-text{
 	text-align: left 
+}
+.header{
+	height: 250px;
+	background-color: pink;
+	border-radius: 10px
+
+}
+.profile-pic,
+.profile-text{
+	margin-top: 25px
+}
+.profile-pic > img{
+	border-radius: 5px
 }

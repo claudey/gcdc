@@ -50,15 +50,16 @@
         	<div class="row">
 				<div class="col-md-3">
 					<ul class="nav nav-pills nav-stacked office-list">
-						<li><button class="btn-lg btn-success">Create project</button></li>
+						<li><a class="btn-lg btn-success feedable dce">Create project</a></li>
+						<li><p><br></p></li>
 						<li class="active feedable mp"><a>Issues</a></li>
 						<li class="feedable prez"><a>Profile</a></li>
 					</ul>
 				</div>
 				<div class="feed col-md-9">
-        			<p class="welcome">Welcome to GCDC. Click on any of the tabs to see your feed.</p>
+        			<p class="welcome">Welcome to Leaders Watch, interact with the electorate.</p>
         			<div class="fd feed-mp">
-        				This is the feed for members of parliament. It should show only when necessary
+        				A feed where all issues concerning this official will be displayed.
 
         				<div class="row news-item" id="3">
         					<div class="col-md-2">
@@ -84,7 +85,39 @@
     						</div>
     					</div>
     				</div>
-        			<div class="fd feed-dce">Feeds from DCEs are listed here. We like to keep it short</div>
+        			<div class="fd feed-dce">
+
+						<form class="form-signin" action="/process" method="post">
+                        <h2 class="form-signin-heading">Share Your Achievements</h2>
+						<fieldset>
+							<div class="row">
+								<div class="form-group col-md-8">
+									<p>Project Title<p>
+                    				<input type="text" name="fname" class="form-control" placeholder="Project Title" required>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-8">
+									<p>Project Description<p>
+                        			<textarea name="" id="" cols="30" rows="10"  class="form-control" placeholder="Enter details about the project here" required></textarea>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-4">
+									<p>Completion Date<p>
+                        			<input type="date" name="completionDate" class="form-control" required>
+								</div>
+							</div>
+
+							<div class="row">
+                        			<div class="col-md-4"><button class="btn btn-lg btn-success btn-block" name="signup" type="submit">Share achievement</button></div>
+							</div>
+						</fieldset>
+                    </form>
+
+        			</div>
         			<div class="fd feed-min">Minister will post their updates to subscribed users here. All short and sweet.</div>
         			<div class="fd feed-prez">
 						<div class="row header">
@@ -92,10 +125,19 @@
 							<div class="col-md-8 profile-text">
 								<div class="profile-name">Hon. Albert Fiati</div>
 								<div class="profile-title">Minister of Code and Algorithms</div>
-								<div class="profile-stat">
-									<p>projects</p>
-									<p>Conversations</p>
-									<p>followers</p>
+								<div class="row profile-stat">
+									<div class="col-md-2 col-md-offset-2">
+										<p>projects</p>
+										<span>400</span>
+									</div>
+									<div class="col-md-2">
+										<p>Issues</p>
+										<span>38</span>
+									</div>
+									<div class="col-md-2">
+										<p>followers</p>
+										<span>5483</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -106,9 +148,9 @@
 
     	<div class="footer">footer</div>
 
-        <script src="/assets/js/jquery-2.0.3.js"></script>
-        <script src="/assets/js/bs.min.js"></script>
-		<script src="/assets/js/gcdc.js"></script>
+        <script src="assets/js/jquery-2.0.3.js"></script>
+        <script src="assets/js/bs.min.js"></script>
+		<script src="assets/js/gcdc.js"></script>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
