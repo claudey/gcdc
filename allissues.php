@@ -520,6 +520,7 @@
         <script src="assets/js/jquery-2.0.3.js"></script>
         <script src="assets/js/bs.min.js"></script>
         <script src="assets/js/gcdc.js"></script>
+        <script src="assets/js/typeahead.min.js"></script>
     </body>
     <?php
         @include("footer.php")

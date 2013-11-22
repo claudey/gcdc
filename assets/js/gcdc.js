@@ -49,7 +49,7 @@ $(".feed-item-list").on("mouseout",function(){
 var i = 0;
 var msg = new Array("Holding Politicaly Elected Leaders Accountable",
 					"Leaders Watch -Bridging the gap between political leaders and the ordinary Ghanaian",
-					"Everyone has a story, Ghanians let's share it at Leaders Watch",
+					"Everyone has a story, Ghanians let's share ours on Leaders Watch",
 					"Public officials and the ordinary Ghanaian have never been this close.");
 
 setInterval(function(){			    
@@ -62,3 +62,4 @@ setInterval(function(){
 	}
 
 },6000);
+

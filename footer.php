@@ -16,17 +16,14 @@
             </div>
             <div class="col-lg-4">
                 <div>
-                    <h5>Connect with us</h5>
+                    <h5>Follow</h5>
                     <div>
-                        <img src="assets/img/googleplus.png">
-                        <img src="assets/img/facebook.png">
-                        <img src="assets/img/twitter.png">
+                        <img src="assets/img/googleplus.png" href="https://plus.google.com/b/108312121427282460744/108312121427282460744">
                     </div>
                 </div>
             </div>  
             <div class="col-lg-4">
                 <h5>Leaders Watch &copy; <script>document.write(new Date().getFullYear())</script></h5>
-                
             </div>
         </div>          
     </div>
