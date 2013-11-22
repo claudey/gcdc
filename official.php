@@ -31,34 +31,30 @@
 				<div class="feed col-md-9">
         			<p class="welcome">Welcome to Leaders Watch, interact with the electorate.</p>
         			<div class="fd feed-mp">
-        				A feed where all issues concerning this official will be displayed.
-
+						<h3>Issues Concerning You</h3>
         				<div class="row news-item" id="3">
-        					<div class="col-md-2">
-        						an image to make the text less boring.
-        					</div>
-    						<div class="col-md-10">
-	    						<p class="item-title">Water Issue</p>
-	    						<div class="row">
-	    							<div class="col-md-8">
-	    								<p class="created-by">Creator</p>
-	    								<p class="assigned-to">Assignee</p>
-	    							</div>
-	    							<div class="col-md-4 view-issue item-hover">
-	    								<button class="btn btn-success">View Issue</button>
-	    							</div>
-	    						</div>
-	    						<div class="votes item-hover">
-	    							<div class="inl num-up-votes">243</div>
-	    							<div class="inl num-down-votes">19</div>
-	    							<div class="inl num-comments">104</div>
-	    						</div>
-	    						<div class="item-share item-hover"></div>
-    						</div>
+        					<div class="issue-container border-bottom">
+                                <div class="content-header">
+                                    <div class="content-title">
+                                        <h5>The title of the issue</h5>
+                                    </div>
+                                    <div class="date-posted author">
+                                        Posted by Albert Fiati on 12-December-2013
+                                    </div>
+                                </div>
+                                <div class="content-content1">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. <a href="">Read more</a>
+                                    </p>
+                                </div>
+                            </div>
     					</div>
     				</div>
         			<div class="fd feed-dce">
-
+						
 						<form class="form-signin" action="/process" method="post">
 	                        <h2 class="form-signin-heading">Share Your Achievements</h2>
 							<fieldset>
@@ -88,7 +84,6 @@
 								</div>
 							</fieldset>
                     	</form>
-
         			</div>
         			<div class="fd feed-min">
 						<h3>Your Achievements</h3>
@@ -107,7 +102,6 @@
 
 						</div>
         			</div>
-
         			<div class="fd feed-prez">
 						<div class="row header">
 							<div class="col-md-4 profile-pic"><img src="http://placehold.it/200x200" alt="official's image"></div>

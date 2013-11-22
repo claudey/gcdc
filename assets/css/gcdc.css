@@ -2,7 +2,6 @@ html,
 body{
 	height: 100%
 }
-
 html{
 	overflow-y:scroll
 }
@@ -79,8 +78,6 @@ body{
 .thumb{margin-top:5px;}
 
 .count{margin-top: -5px;}
-
-.news-list{}
 .news-item{
 	background-color: aliceblue;
 	padding: 10px;
