@@ -69,27 +69,24 @@
         			<div class="fd feed-prez">
         				<h3>Issues concerning them</h3>
         				<div class="row news-item" id="3">
-        					<div class="col-md-2">
-        						an image to make the text less boring.
-        					</div>
-    						<div class="col-md-10">
-	    						<p class="item-title">Water Issue</p>
-	    						<div class="row">
-	    							<div class="col-md-8">
-	    								<p class="created-by">Creator</p>
-	    								<p class="assigned-to">Assignee</p>
-	    							</div>
-	    							<div class="col-md-4 view-issue item-hover">
-	    								<button class="btn btn-success">View Issue</button>
-	    							</div>
-	    						</div>
-	    						<div class="votes item-hover">
-	    							<div class="inl num-up-votes">243</div>
-	    							<div class="inl num-down-votes">19</div>
-	    							<div class="inl num-comments">104</div>
-	    						</div>
-	    						<div class="item-share item-hover"></div>
-    						</div>
+        					<div class="issue-container border-bottom">
+                                <div class="content-header">
+                                    <div class="content-title">
+                                        <h5>The title of the issue</h5>
+                                    </div>
+                                    <div class="date-posted author">
+                                        Posted by Albert Fiati on 12-December-2013
+                                    </div>
+                                </div>
+                                <div class="content-content1">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. <a href="">Read more</a>
+                                    </p>
+                                </div>
+                            </div>
     					</div>
         			</div>
 
